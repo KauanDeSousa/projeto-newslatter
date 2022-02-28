@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.Marketing {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.Creativo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+
+.navegação {
+    display: flex;
+    gap: 50px;
+}
+
+.pages {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px 5px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pages:hover {
+    border-bottom: 0.4px solid rgb(132, 14, 201);
+    color: rgb(132, 14, 201);
+}
+
+
+.nova-conta:hover {
+    background-color: rgb(132, 14, 201);
+    transition-duration: 0.5s;
+}
+
+.nova-conta {
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(132, 14, 201);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+strong {
+    color: rgb(132, 14, 201);
+}
+
+.loren {
+    padding: 20px;
+    width: 500px;
+    font-size: 14px;
+}
+
+.nome {
+    border: 1px solid black;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.705);
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+}
+
+.email {
+    border: 1px solid black;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.705);
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.botão {
+    border: 1px solid black;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    border-radius: 12px;
+    width: 150px;
+    padding: 15px;
+    margin: 15px 10px 10px 10px;
+}
+
+.foto {
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
